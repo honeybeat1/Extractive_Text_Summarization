@@ -11,7 +11,7 @@
 - 패턴을 찾을 수 있는 불용어, 특수문자 제거
 - 크롤링하면서 생긴 불필요한 워딩 제거
 - \n 제거
-- 형태소 단위의 띄어쓰기 적용(https://ebbnflow.tistory.com/246)
+- 형태소 단위의 띄어쓰기 적용(https://needjarvis.tistory.com/645)
 
 ## 모델 찾기
 
