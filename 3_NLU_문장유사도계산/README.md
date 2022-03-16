@@ -7,6 +7,8 @@
 - 맞춤법, 영숫특문제거
 - khaiii 형태소 분석기 사용
 2. Pretrained Model 선정, 불러오기
+- Sentence-Bert (sentence-transformer) 사용하기
+- klue-RoBERTa-large 모델 기반 Fine-tuning 
 3. Train 코드 작성
 4. ...
 
