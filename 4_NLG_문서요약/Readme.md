@@ -22,9 +22,12 @@
 
 - 기본적으로 정답 label 은 title로 설정
 - ROUGE
-- RDASS (https://kakaoenterprise.github.io/deepdive/210729) (꽤나 오랜 시간 소요 될 것으로 예상)
+- RDASS (https://kakaoenterprise.github.io/deepdive/210729)
 
 ## train 코드 짜고 tuning
+
+- Fine Tuning!!!
+- https://arxiv.org/pdf/1909.08752.pdf
 
 ## 모델에 따른 성능 비교
 
@@ -33,4 +36,3 @@
 ## 추가적으로 필요하다고 느끼는 문제점들
 
 - 형태소 단위의 띄어쓰기에서 문제가 생김-> 직접 라벨링 또는 정제
--
