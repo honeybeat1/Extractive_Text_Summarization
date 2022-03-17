@@ -15,8 +15,8 @@
 
 ## 모델 찾기
 
+- Kobart
 - Hyper clova(Kogpt)
-- ???
 
 ## 평가 지표 설정 & 함수 만들기
 
@@ -27,7 +27,14 @@
 ## train 코드 짜고 tuning
 
 - Fine Tuning!!!
-- https://arxiv.org/pdf/1909.08752.pdf
+- Matchsum 이 되어야 할 듯
+
+1. 비교적 간단한 구현
+2. 만약에 여러 문장을 하나의 문장으로 바꾸는 paraphrase가 가능하다면 abstractive도 가능할지도?
+
+- (https://arxiv.org/pdf/1909.08752.pdf)
+
+3. but, 각 문장 별로 분리하는 전처리 필요!
 
 ## 모델에 따른 성능 비교
 
