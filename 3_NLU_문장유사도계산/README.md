@@ -7,10 +7,13 @@
 - 맞춤법, 영숫특문제거
 - khaiii 형태소 분석기 사용
 2. Pretrained Model 선정, 불러오기
-- Sentence-Bert (sentence-transformer) 사용하기
-- klue-RoBERTa-large 모델 기반 Fine-tuning 
+- klue-RoBERTa-large 모델
 3. Train 코드 작성
-4. ...
+- transformers.Trainer 클래스를 이용한 훈련
+4. 최적 하이퍼 파라미터 서치
+- Optuna를 이용한 하이퍼 파라미터 서치
+5. 하이퍼 파라미터 튜닝한 모델 분석
+6. FastAPI를 통한 모델 구현
 
 ---
 
@@ -36,6 +39,7 @@
 ### 제출사항
 
 - 학습된 모델 (모델 자유 선택)
+    Pretrained KLUE RoBERTa Large
 - 학습 방식 보고서
     - 어떤 모델을 선택했나
     - 어떤 파라미터를 튜닝했나
